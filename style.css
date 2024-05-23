@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 header{
     background-image: url('./images/banner/banner1.png');
@@ -83,9 +84,9 @@ header div{
     margin-bottom: 130px;
 }
 
-
+/* plans section  */
 .plans{
-    margin-bottom: 0 230px 124px 230px;
+    margin-bottom: 140px;
 }
 
 .plans_head{
@@ -118,6 +119,47 @@ header div{
 
 .plans_container div{
     text-align: center;
+}
+
+/* watch section  */
+.watch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.watch_content {
+    background-image: url('./images/watch.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50%;
+    height: auto;
+    padding: 60px;
+    text-align: left;
+    border-radius: 5px;
+}
+
+.watch_content h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 24px;
+}
+
+.watch div h1{
+    font-size: 40px;
+    font-weight: 700;
+    /* color: white; */
+}
+
+.watch div button{
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 21px;
 }
 
 
