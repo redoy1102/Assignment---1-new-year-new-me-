@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url('./images/banner/banner1.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 141px;
+}
+header div h1{
+    font-size: 65px;
+    font-weight: bold;
+    color: #151414;
+    margin-bottom: 24px;
+}
+header div p{
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 32px;
+}
+header div button{
+    border: none;
+    border-radius: 5px;
+    background-color: #F15B22;
+    width: 160px;
+    height: 64px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+header div{
+    width: 494px;
+    text-align: right;
+    margin-right: 230px;
+}
+
+/* failures section  */
+.failures{
+    margin: 0 206px;
+}
+
+.failures_text{
+    width: 416px;
+    height: 400px;
+}
+
+.failures .failures_text h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #151414;
+    margin-bottom: 24px;
+    width: 288px;
+    height: 94px;
+}
+
+.failures_des{
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+
+.failures_list{
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 8px;
+}
+
+.failures_list i{
+    color: green;
+}
+
+.failures{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 87px;
+    margin-bottom: 130px;
+}
+
+
+.plans{
+    margin-bottom: 0 230px 124px 230px;
+}
+
+.plans_head{
+    font-size: 40px;
+    font-weight: bold;
+    color: #151414;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.plans_container h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: #151414;
+    margin-bottom: 16px;
+}
+
+.plans_container p{
+    font-size: 25px;
+    font-weight: 500px;
+    color: #737272;
+}
+
+.plans_container{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    align-items: center;
+}
+
+.plans_container div{
+    text-align: center;
+}
+
+
